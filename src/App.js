@@ -1,14 +1,16 @@
 import React from 'react';
 
 import Post from './Post';
+import Header from './Header';
 
 const tituloZeroum = 'Titulo Zero Um';
 
 function App() {
   return (
     <>
-      <h1>JStack's Blog</h1>
-      <h2>Posts da semana</h2>
+      <Header title="JStack's Blog">
+        <h2>Posts da semana</h2>
+      </Header>
 
       <hr />
 
